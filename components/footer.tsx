@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Facebook, Instagram, Linkedin, Mail, Phone } from "lucide-react"
 
 const Footer = () => {
@@ -7,7 +8,15 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold">Ocera Informatique</h3>
+            <div className="flex items-center">
+              <Image
+                src="/images/ocera-logo.svg"
+                alt="Ocera Informatique Logo"
+                width={140}
+                height={50}
+                className="h-10 w-auto invert"
+              />
+            </div>
             <p className="text-gray-300">IT expertise for enterprises and self-employed workers</p>
             <div className="flex space-x-4">
               <Link href="https://facebook.com" className="text-gray-300 hover:text-white">

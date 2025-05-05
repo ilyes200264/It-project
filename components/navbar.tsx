@@ -18,11 +18,11 @@ const Navbar = () => {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6">
         <Link href="/" className="flex items-center space-x-2">
           <Image
-            src="/images/ocera-logo.png"
+            src="/images/ocera-logo.svg"
             alt="Ocera Informatique Logo"
             width={120}
             height={40}
-            className="h-8 w-auto"
+            className="h-10 w-auto"
           />
         </Link>
 

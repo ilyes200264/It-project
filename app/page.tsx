@@ -74,11 +74,11 @@ export default function Home() {
             <motion.div variants={fadeInUp} className="mb-12 max-w-2xl text-center lg:mb-0 lg:text-left">
               <div className="mb-6 flex items-center justify-center lg:justify-start">
                 <Image
-                  src="/images/ocera-logo.png"
+                  src="/images/ocera-logo.svg"
                   alt="Ocera Informatique Logo"
                   width={180}
                   height={60}
-                  className="h-12 w-auto"
+                  className="h-16 w-auto"
                 />
               </div>
               <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
@@ -112,14 +112,14 @@ export default function Home() {
 
             {/* Right Content - Image */}
             <motion.div variants={fadeInUp} className="relative">
-              <div className="relative overflow-hidden rounded-2xl shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-transparent z-10"></div>
+              <div className="relative">
                 <Image
                   src="/images/it-expert.jpg"
-                  alt="IT Expert"
-                  width={500}
-                  height={400}
-                  className="h-[400px] w-[500px] object-cover transition-transform duration-700 hover:scale-105"
+                  alt="IT Expert working on server hub"
+                  width={650}
+                  height={450}
+                  className="h-auto w-[650px] transition-transform duration-700 hover:scale-105"
+                  priority
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 rounded-lg bg-white p-4 shadow-lg">
